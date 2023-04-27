@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10a689b4-7a84-496d-84b2-75ddf23fc982" name="Changes" comment="Перевёл проект на спринг бут">
+    <list default="true" id="10a689b4-7a84-496d-84b2-75ddf23fc982" name="Changes" comment="Добавил в проект спринг web mvc и главную страницу">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/our-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/statistic/jira/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/statistic/jira/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/statistic/jira/contrrollers/mainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/statistic/jira/contrrollers/mainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,28 +54,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/project/Burning_progect/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/user/IdeaProjects/burning_project/src/main/java/ru/statistic/jira&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/burning_project/src/main/resources/templates&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\burning_project\src\main\resources\templates" />
+      <recent name="C:\Users\user\IdeaProjects\burning_project\src\main\test" />
+      <recent name="C:\Users\user\IdeaProjects\burning_project\src\main\resources" />
       <recent name="C:\project\Burning_progect\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\burning_project\src\main\resources" />
+      <recent name="C:\Users\user\IdeaProjects\burning_project\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
-      <command value="mvn clean install" />
       <command value="mvn compile" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -70,7 +95,7 @@
       <module name="Burning_progect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.statistic.jira.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678489943457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил в проект спринг web mvc и главную страницу">
+      <created>1682201453039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682201453039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit in master" />
     <MESSAGE value="Перевёл проект на спринг бут" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перевёл проект на спринг бут" />
+    <MESSAGE value="Добавил в проект спринг web mvc и главную страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил в проект спринг web mvc и главную страницу" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
