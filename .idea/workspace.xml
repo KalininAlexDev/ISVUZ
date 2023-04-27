@@ -87,6 +87,7 @@
       <command value="mvn clean" />
       <command value="mvn compile" />
       <command value="mvn clean install" />
+      <command value="mvn compile" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Application">
